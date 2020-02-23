@@ -8,7 +8,10 @@ module.exports = {
       disc: 'disc',
       decimal: 'decimal',
       square: 'square',
-      roman: 'upper-roman',
+      'upper-roman': 'upper-roman',
+      'lower-roman': 'lower-roman',
+      'upper-alpha': 'upper-alpha',
+      'lower-alpha': 'lower-alpha',
     },
     extend: {
       colors: {
