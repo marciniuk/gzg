@@ -412,6 +412,13 @@ fieldset {
   padding: 0;
 }
 
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 /**
  * Tailwind custom reset styles
  */
@@ -3888,6 +3895,26 @@ video {
 
 .list-decimal {
   list-style-type: decimal;
+}
+
+.list-square {
+  list-style-type: square;
+}
+
+.list-upper-roman {
+  list-style-type: upper-roman;
+}
+
+.list-lower-roman {
+  list-style-type: lower-roman;
+}
+
+.list-upper-alpha {
+  list-style-type: upper-alpha;
+}
+
+.list-lower-alpha {
+  list-style-type: lower-alpha;
 }
 
 .m-0 {
@@ -11394,6 +11421,19 @@ video {
   z-index: auto;
 }
 
+ol,
+ul {
+  padding-left: 20px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
 progress,
 ::-webkit-progress-bar {
   background-image: -webkit-gradient(linear,left top, right top,from(#e83e3e),to(#e83e62));
@@ -14942,6 +14982,26 @@ progress,
 
   .sm\:list-decimal {
     list-style-type: decimal;
+  }
+
+  .sm\:list-square {
+    list-style-type: square;
+  }
+
+  .sm\:list-upper-roman {
+    list-style-type: upper-roman;
+  }
+
+  .sm\:list-lower-roman {
+    list-style-type: lower-roman;
+  }
+
+  .sm\:list-upper-alpha {
+    list-style-type: upper-alpha;
+  }
+
+  .sm\:list-lower-alpha {
+    list-style-type: lower-alpha;
   }
 
   .sm\:m-0 {
@@ -25720,6 +25780,26 @@ progress,
     list-style-type: decimal;
   }
 
+  .md\:list-square {
+    list-style-type: square;
+  }
+
+  .md\:list-upper-roman {
+    list-style-type: upper-roman;
+  }
+
+  .md\:list-lower-roman {
+    list-style-type: lower-roman;
+  }
+
+  .md\:list-upper-alpha {
+    list-style-type: upper-alpha;
+  }
+
+  .md\:list-lower-alpha {
+    list-style-type: lower-alpha;
+  }
+
   .md\:m-0 {
     margin: 0;
   }
@@ -36496,6 +36576,26 @@ progress,
     list-style-type: decimal;
   }
 
+  .lg\:list-square {
+    list-style-type: square;
+  }
+
+  .lg\:list-upper-roman {
+    list-style-type: upper-roman;
+  }
+
+  .lg\:list-lower-roman {
+    list-style-type: lower-roman;
+  }
+
+  .lg\:list-upper-alpha {
+    list-style-type: upper-alpha;
+  }
+
+  .lg\:list-lower-alpha {
+    list-style-type: lower-alpha;
+  }
+
   .lg\:m-0 {
     margin: 0;
   }
@@ -47270,6 +47370,26 @@ progress,
 
   .xl\:list-decimal {
     list-style-type: decimal;
+  }
+
+  .xl\:list-square {
+    list-style-type: square;
+  }
+
+  .xl\:list-upper-roman {
+    list-style-type: upper-roman;
+  }
+
+  .xl\:list-lower-roman {
+    list-style-type: lower-roman;
+  }
+
+  .xl\:list-upper-alpha {
+    list-style-type: upper-alpha;
+  }
+
+  .xl\:list-lower-alpha {
+    list-style-type: lower-alpha;
   }
 
   .xl\:m-0 {
