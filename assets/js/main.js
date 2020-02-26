@@ -62,7 +62,7 @@ async function slideshow(imageSrc, element) {
 	}
 }
 
-if (window.location.pathname === "/sklep/") {
+if (window.location.pathname === "/sklep/koszulka-gzg") {
 	slideshow(
 		[
 			"/assets/img/layout/IMG_4447-Edit.jpg",
