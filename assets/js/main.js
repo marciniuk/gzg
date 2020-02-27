@@ -29,6 +29,9 @@ function toggleNav() {
 document.querySelector("#hamburger").addEventListener("click", toggleNav);
 
 fillMail(["domgzg", "@", "grand", "zone", "gaming", ".com"], ".domgzg-mail");
+fillMail(["ceogzg", "@", "grand", "zone", "gaming", ".com"], ".ceogzg-mail");
+fillMail(["sklep", "@", "grand", "zone", "gaming", ".com"], ".sklep-mail");
+fillMail(["kontakt", "@", "grand", "zone", "gaming", ".com"], ".kontakt-mail");
 
 function fillMail(address, fillElement) {
 	document.querySelectorAll(`${fillElement}`).forEach(element => {
