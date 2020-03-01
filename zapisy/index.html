@@ -87,6 +87,7 @@
 	<form action="https://api.staticforms.xyz/submit" method="POST" onsubmit="return submitForm();">
 	<div class="flex flex-col items-center w-40 mx-auto">
 		<input type="hidden" name="accessKey" value="f0bac7e1-f4c2-47b2-90c4-aaee442475cc">
+		<input type="hidden" name="subject" value="Zapisy" />
 		<label class="my-2">
 			Nazwa w grze:
 			<input class="bg-gray-700 px-2 py-1 w-56" type="text" name="$nazwa_w_grze" required>
@@ -96,14 +97,10 @@
 			<input class="bg-gray-700 px-2 py-1 w-56" type="text" name="$tag_w_grze" required>
 		</label>
 		<label class="my-2">
-			Nazwa na forum:
-			<input class="bg-gray-700 px-2 py-1 w-56" type="text" name="$nazwa_na_forum" required>
-		</label>
-		<label class="my-2">
 			Nazwa turnieju:
 			<select id="form-tournament" class="bg-gray-700 px-2 py-1 w-56" name="$turniej" required>
 				<option></option>
-				<option>Liga Klanów GZG</option>
+				<option>LikeGZGCup</option>
 			</select>
 		</label>
 		<label class="my-2">
