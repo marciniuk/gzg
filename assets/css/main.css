@@ -11421,6 +11421,13 @@ video {
   z-index: auto;
 }
 
+.customerly-livechat-by,
+.customerly-livechat-by-text,
+.customerly-livechat-by-link,
+.customerly-livechat-by {
+  visibility: hidden;
+}
+
 ol,
 ul {
   padding-left: 25px;
