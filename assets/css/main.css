@@ -11425,6 +11425,8 @@ video {
   font-family: Over-There;
 
   src: url("/assets/webfonts/Over-There.ttf");
+
+  font-size: 1rem;
 }
 
 .customerly-livechat-by,
