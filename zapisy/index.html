@@ -1,28 +1,30 @@
-<form action="https://api.staticforms.xyz/submit" method="POST" onsubmit="return submitForm();">
-	<div class="flex flex-col items-center w-40 mx-auto">
-		<input type="hidden" name="accessKey" value="f0bac7e1-f4c2-47b2-90c4-aaee442475cc">
-		<input type="hidden" name="subject" value="Zapisy" />
-		<label class="my-2">
-			Nazwa w grze:
-			<input class="bg-gray-700 px-2 py-1 w-56" type="text" name="$nazwa_w_grze" required>
-		</label>
-		<label class="my-2">
-			Tag w grze:
-			<input class="bg-gray-700 px-2 py-1 w-56" type="text" name="$tag_w_grze" required>
-		</label>
-		<label class="my-2">
-			Nazwa turnieju:
-			<select id="form-tournament" class="bg-gray-700 px-2 py-1 w-56" name="$turniej" required>
-				<option></option>
-				<option>LikeGZGCup</option>
-			</select>
-		</label>
-		<label class="my-2">
-			Adres email:
-			<input class="bg-gray-700 px-2 py-1 w-56" type="email" name="email" required>
-		</label>
-		<input type="hidden" name="redirectTo" value="https://grandzonegaming.com/wyslane">
-		<input type="text" name="honeypot" style="display: none;">
-		<input class="btn btn-blue mt-4 w-full" type="submit" value="Wyślij">
-	</div>
-</form>
+<div class="bg-gray-700 text-lg rounded-lg p-5 mb-6">
+	<form action="https://api.staticforms.xyz/submit" method="POST" onsubmit="return submitForm();">
+		<div class="flex flex-col items-center w-40 mx-auto">
+			<input type="hidden" name="accessKey" value="f0bac7e1-f4c2-47b2-90c4-aaee442475cc">
+			<input type="hidden" name="subject" value="Zapisy" />
+			<label class="my-2">
+				Nazwa w grze:
+				<input class="bg-gray-700 px-2 py-1 w-56" type="text" name="$nazwa_w_grze" required>
+			</label>
+			<label class="my-2">
+				Tag w grze:
+				<input class="bg-gray-700 px-2 py-1 w-56" type="text" name="$tag_w_grze" required>
+			</label>
+			<label class="my-2">
+				Nazwa turnieju:
+				<select id="form-tournament" class="bg-gray-700 px-2 py-1 w-56" name="$turniej" required>
+					<option></option>
+					<option>LikeGZGCup</option>
+				</select>
+			</label>
+			<label class="my-2">
+				Adres email:
+				<input class="bg-gray-700 px-2 py-1 w-56" type="email" name="email" required>
+			</label>
+			<input type="hidden" name="redirectTo" value="https://grandzonegaming.com/wyslane">
+			<input type="text" name="honeypot" style="display: none;">
+			<input class="btn btn-blue mt-4 w-full" type="submit" value="Wyślij">
+		</div>
+	</form>
+</div>
