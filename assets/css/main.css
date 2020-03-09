@@ -11441,6 +11441,10 @@ video {
   padding-left: inherit;
 }
 
+.border-20 {
+  border-radius: 20px;
+}
+
 ol,
 ul {
   padding-left: 25px;
