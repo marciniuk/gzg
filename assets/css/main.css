@@ -11436,6 +11436,11 @@ video {
   visibility: hidden;
 }
 
+.reporter-profile {
+  padding-top: inherit;
+  padding-left: inherit;
+}
+
 ol,
 ul {
   padding-left: 25px;
