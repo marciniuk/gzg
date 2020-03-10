@@ -11429,6 +11429,12 @@ video {
   font-size: 1rem;
 }
 
+#autor-podsumowania {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .customerly-livechat-by,
 .customerly-livechat-by-text,
 .customerly-livechat-by-link,
