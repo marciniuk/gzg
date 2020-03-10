@@ -11502,6 +11502,14 @@ progress,
     background: #1E2129;
     font-size: 1.25rem;
   }
+
+  .zrzutka {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
 }
 
 @-webkit-keyframes slide-left {
