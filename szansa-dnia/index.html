@@ -83,9 +83,35 @@
 </div>
 
 <div class="w-full max-w-6xl px-6 py-8 mx-auto">
-	<div class="flex mx-auto text-center">
-	<h1>Sprawdzaj codziennie stronę, "szansa" pojawi się już niedługo!</h1>
-	<h2>W tym czasie możesz sprawdzić <a href="https://www.grandzonegaming.com/regulaminy/happy-league"><font color="#c62d3f">regulamin</font></a>!</h2>
+	<div class="mx-auto justify-center">
+	<img src="/assets/img/happytag.png" class="md:w-64 w-56 mx-auto" />
+	<form action="https://api.staticforms.xyz/submit" method="POST">
+		<div class="flex flex-col items-center mt-8 sm:mt-0 w-56 mx-auto">
+			<input type="hidden" name="accessKey" value="1541cdcd-4f17-4909-9702-23be5310a69e">
+			<input type="hidden" name="subject" value="Szansa dnia" />
+			<label class="my-2">
+				<span class="fas fa-user-circle text-xl mr-1"></span>
+				Nick z gry:
+				<input class="bg-gray-700 px-2 py-1 w-56" type="text" name="$nick_z_gry">
+			</label>
+			<label class="my-2">
+				<span class="fab fa-slack-hash text-xl mr-1"></span>
+				Tag konta:
+				<input class="bg-gray-700 px-2 py-1 w-56" type="text" name="$tag_konta">
+			</label>
+			<label class="my-2">
+				<span class="fas fa-at text-xl mr-1"></span>
+				Adres email:
+				<input class="bg-gray-700 px-2 py-1 w-56" type="email" name="email" required>
+			</label>
+			<input type="hidden" name="redirectTo" value="https://grandzonegaming.com/wyslane-sd">
+			<input type="text" name="honeypot" style="display: none;">
+			<input class="btn btn-blue mt-4 w-full" type="submit" value="Wyślij">
+		</div>
+	</form>
+	<div class="pt-8 text-center">
+		<h2>W międzyczasie możesz sprawdzić <a href="https://www.grandzonegaming.com/regulaminy/happy-league"><font color="#c62d3f">regulamin</font></a>!</h2>
+	</div>
 </div>
 
 </div>
