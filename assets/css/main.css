@@ -11435,6 +11435,14 @@ video {
   width: fit-content;
 }
 
+#customerly-container .customerly-attachments-filename {
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
 #customerly-container .bubble-left .customerly-attachments-filename a {
   color: #dddddd !important;
 }
