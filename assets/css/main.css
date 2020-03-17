@@ -11435,6 +11435,18 @@ video {
   width: fit-content;
 }
 
+#customerly-container .bubble-left .customerly-attachments-filename a {
+  color: #dddddd !important;
+}
+
+#customerly-notify-header,
+#customerly-notification-body,
+#customerly-notify-text,
+.customerly-notify-text {
+  color: #ddd !important;
+  background: #181b21 !important;
+}
+
 #customerly-container .customerly-comment-body-container a:link,
 #customerly-container .customerly-comment-body-container a:visited,
 #customerly-container .bubble-left .customerly-attachments-filename a,
