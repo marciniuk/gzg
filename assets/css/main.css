@@ -11463,6 +11463,7 @@ video {
 }
 
 .customerly-reset input:not(.default) {
+  color: #ddd !important;
   background: #22262e !important;
 }
 
