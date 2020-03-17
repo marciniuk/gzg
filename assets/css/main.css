@@ -11462,6 +11462,10 @@ video {
   color: #ddd !important;
 }
 
+.customerly-reset input:not(.default) {
+  background: #22262e !important;
+}
+
 .customerly-profiling-input {
   color: #22262e !important;
 }
