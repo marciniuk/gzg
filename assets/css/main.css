@@ -11452,6 +11452,7 @@ video {
 }
 
 #customerly-container .customerly-conversations-item * {
+  color: #ddd;
   border: 3px solid #22262e !important;
   border-bottom: 1px solid #181b21 !important;
 }
