@@ -29,7 +29,7 @@
 
 	</head>
 
-	<body class="bg-gray-900 text-gray-100 flex flex-col min-h-full">
+	<body class="bg-gray-900 text-gray-100 flex flex-col min-h-full" onload="loaded=true">
 		<nav class="bg-gray-800 text-gray-400 sticky top-0">
 	<div class="max-w-6xl px-6 py-2 mx-auto flex flex-col xl:flex-row xl:justify-between xl:items-center">
 		<div class="flex justify-between items-center">
@@ -83,12 +83,24 @@
 </div>
 
 <div class="w-full max-w-6xl px-6 py-8 mx-auto">
-	<div class="flex flex-wrap -mx-2">
+	<div class="z-10 fixed w-full left-0 top-0">
+  <div class="loading-container w-full h-full bg-gray-800 flex justify-center items-center fixed pr-3">
+    <img class="loading h-64" src="/assets/img/loading/logo.svg" />
+  </div>
+  <div class="loaded hidden w-1/2 h-full bg-gray-800 flex justify-end items-center fixed pr-3 loading-after">
+    <img class="h-64" src="/assets/img/loading/left.svg" />
+  </div>
+  <div class="loaded hidden w-1/2 h-full bg-gray-800 flex right-0 items-center fixed pr-3 loading-after">
+    <img class="h-64" src="/assets/img/loading/right.svg" />
+  </div>
+</div>
+
+<div class="flex flex-wrap -mx-2">
 	<a href="/regulaminy/polish-royal-series" class="md:w-1/2 p-2">
 		<img class="rounded shadow" src="/assets/img/aktualnosci/PRS.jpg" class="md:w-1/2 p-2">
 	</a>
 	<a href="/regulaminy/korona-cup" class="md:w-1/2 p-2">
-		<img class="rounded shadow" src="/assets/img/aktualnosci/kc3.jpg" />
+		<img class="rounded shadow" src="/assets/img/aktualnosci/KC3.jpg" />
 	</a>
 	<a href="/regulaminy/nwo-grand-tour" class="md:w-1/2 p-2">
 		<img class="rounded shadow" src="/assets/img/aktualnosci/nwo5.jpg" />
@@ -136,6 +148,7 @@
 		<img class="rounded shadow" src="/assets/img/aktualnosci/photo_2019-11-12_16-51-55.jpg" />
 	</div>
 </div>
+
 
 </div>
 

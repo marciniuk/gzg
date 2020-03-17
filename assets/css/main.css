@@ -11435,6 +11435,10 @@ video {
   width: fit-content;
 }
 
+#customerly-container .customerly-launcher {
+  z-index: 10 !important;
+}
+
 .customerly-livechat-by,
 .customerly-livechat-by-text,
 .customerly-livechat-by-link,
@@ -11760,6 +11764,34 @@ progress,
 
 .btn-green:hover {
   background-color: #2f855a;
+}
+
+.loading {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.loading-after {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes slide {
+  to {
+    width: 0%;
+    opacity: 0;
+  }
+}
+
+@keyframes slide {
+  to {
+    width: 0%;
+    opacity: 0;
+  }
 }
 
 @media (min-width: 640px) {

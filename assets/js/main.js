@@ -1,3 +1,23 @@
+let loaded = false;
+
+document.querySelectorAll(".loading").forEach(async element => {
+  let rotate = 180
+  do {
+    element.style.transform = `rotate(${rotate}deg)`;
+    await sleep(1200);
+    rotate += 180;
+  } while (loaded !== true)
+  document.querySelector(".loading-container").style.display = "none";
+  document.querySelectorAll(".loaded").forEach(element => {
+    element.style.display = "flex";
+  });
+  await sleep(1800);
+  document.querySelectorAll(".loaded").forEach(element => {
+    element.style.display = "none";
+  });
+});
+
+
 if (window.location.pathname === "/") {
 	let deadline = new Date("Jan 20, 2020 00:00:00").getTime();
 	let x = setInterval(()=> {
@@ -13,6 +33,7 @@ if (window.location.pathname === "/") {
 		}
 	}, 1000);
 }
+
 
 function toggleNav() {
 	navRight = document.querySelector("#nav-right");
