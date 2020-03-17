@@ -11439,6 +11439,28 @@ video {
   z-index: 10 !important;
 }
 
+#customerly-container .customerly-sheet-content-container {
+  background: #22262e !important;
+}
+
+#customerly-container .customerly-admin-avatar {
+  background: #22262e !important;
+  box-shadow: none !important;
+}
+
+#customerly-container .customerly-comment-body-container.bubble-left {
+  color: #ddd !important;
+  background-color: #181b21i !important;
+}
+
+.customerly-profiling-input {
+  color: #22262e !important;
+}
+
+#customerly-container .customerly-active-admins {
+  color: #ddd;
+}
+
 .customerly-livechat-by,
 .customerly-livechat-by-text,
 .customerly-livechat-by-link,
