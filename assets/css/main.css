@@ -11477,10 +11477,11 @@ video {
   background: #22262e !important;
 }
 
-#customerly-container .customerly-conversations-item * {
+#customerly-container .customerly-conversations-item *,
+#customerly-container .customerly-conversations-item {
   color: #ddd !important;
   border: 1px solid #22262e !important;
-  border-bottom: 0px !important;
+  border-bottom: 1px #181b21 !important;
 }
 
 #customerly-container .customerly-admin-avatar {
