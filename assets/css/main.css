@@ -11435,11 +11435,13 @@ video {
   width: fit-content;
 }
 
-#customerly-container .customerly-comment-body-container a:link, #customerly-container .customerly-comment-body-container a:visited {
-  color: #ddd !important;
-}
-
-.customerly-attachments-filename {
+#customerly-container .customerly-comment-body-container a:link,
+#customerly-container .customerly-comment-body-container a:visited,
+#customerly-container .bubble-left .customerly-attachments-filename a,
+.customerly-attachments-filename,
+.customerly-conversations-item-title-container,
+.customerly-bold-title,
+#customerly-conversation-profile-name {
   color: #ddd !important;
 }
 
@@ -11452,9 +11454,9 @@ video {
 }
 
 #customerly-container .customerly-conversations-item * {
-  color: #ddd;
-  border: 3px solid #22262e !important;
-  border-bottom: 1px solid #181b21 !important;
+  color: #ddd !important;
+  border: 1px solid #22262e !important;
+  border-bottom: 0px !important;
 }
 
 #customerly-container .customerly-admin-avatar {
@@ -11468,10 +11470,6 @@ video {
 #customerly-conversation-profile-jobtitle {
   color: #ddd !important;
   background-color: #181b21 !important;
-}
-
-.customerly-conversations-item-title-container {
-  color: #ddd !important;
 }
 
 .customerly-reset input:not(.default) {
@@ -11488,7 +11486,7 @@ video {
 }
 
 #customerly-container .customerly-active-admins {
-  color: #ddd;
+  color: #ddd !important;
 }
 
 .customerly-livechat-by,
