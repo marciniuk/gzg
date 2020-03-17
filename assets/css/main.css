@@ -11435,6 +11435,10 @@ video {
   width: fit-content;
 }
 
+.customerly-attachments-filename {
+  color: #ddd !important;
+}
+
 #customerly-container .customerly-launcher {
   z-index: 10 !important;
 }
