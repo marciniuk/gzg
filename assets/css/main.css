@@ -11435,6 +11435,10 @@ video {
   width: fit-content;
 }
 
+.customerly-reset div:not(.default) {
+  box-shadow: none !important;
+}
+
 #customerly-container .customerly-attachments-filename {
   visibility: hidden;
   height: 0px;
