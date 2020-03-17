@@ -11435,6 +11435,10 @@ video {
   width: fit-content;
 }
 
+#customerly-container .customerly-comment-body-container a:link, #customerly-container .customerly-comment-body-container a:visited {
+  color: #ddd !important;
+}
+
 .customerly-attachments-filename {
   color: #ddd !important;
 }
@@ -11447,7 +11451,7 @@ video {
   background: #22262e !important;
 }
 
-#customerly-container .customerly-conversations-item-user-avatar {
+#customerly-container .customerly-conversations-item * {
   border: 3px solid #22262e !important;
   border-bottom: 1px solid #181b21 !important;
 }
@@ -11457,7 +11461,10 @@ video {
   box-shadow: none !important;
 }
 
-#customerly-container .customerly-comment-body-container.bubble-left {
+#customerly-container .customerly-comment-body-container.bubble-left,
+#customerly-conversation-profile-infos,
+#customerly-conversation-profile-infos,
+#customerly-conversation-profile-jobtitle {
   color: #ddd !important;
   background-color: #181b21 !important;
 }
