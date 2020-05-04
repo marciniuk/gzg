@@ -30,47 +30,83 @@
 	</head>
 
 	<body class="bg-gray-900 text-gray-100 flex flex-col min-h-full" onload="loaded=true">
-		<nav class="bg-gray-800 text-gray-400 sticky top-0">
-	<div class="max-w-6xl px-6 py-2 mx-auto flex flex-col xl:flex-row xl:justify-between xl:items-center">
-		<div class="flex justify-between items-center">
-			<a class="flex items-center xl:mb-0" href="/">
-				<img class="w-24 mr-2" src="/assets/img/grandzonegaming3.png" />
-<!--				<div class="font-bold text-xl leading-none">
-					GrandZoneGaming
-				</div>-->
-			</a>
-			<div id="hamburger" class="fas fa-bars fa-lg"></div>
-		</div>
+    <div>
+    <div class="sticky top-0 flex w-full">
+    <nav class="bg-gray-800 xl:bg-gray-900 text-gray-400 w-full">
+  <div class="max-w-6xl px-6 py-2 mx-auto xl:mr-64 xl:ml-auto flex flex-col">
+    <div class="flex justify-between items-center">
+      <a class="flex items-center xl:mb-0" href="/">
+        <img class="w-24 xl:w-32 mr-2" src="/assets/img/grandzonegaming3.png" />
+      </a>
+      <div id="hamburger" class="fas fa-bars fa-lg"></div>
+    </div>
 
-		<div id="nav-right" class="nav-hidden sidebar truncate flex flex-col xl:flex-row -mx-2 mt-2 xl:mt-0">
-			<a class="mx-2 my-1 xl:my-0" href="/aktualnosci/">
-				<span class="fas fa-newspaper text-xl mr-1"></span>
-				Aktualności
-			</a>
-      <a class="mx-2 my-1 xl:my-0 flex" href="/rangi/">
-        <img src="/assets/img/ikony/rangi2.png" style="width: 2rem; height: 1.5rem;" class="pr-2" />
-        Rangi
-      </a>
-      <a class="mx-2 my-1 xl:my-0 flex" href="/clashroyale/">
-        <img src="/assets/img/ikony/cr2.png" style="width: 2rem; height: 1.5rem;" class="pr-2" />
-        Clash Royale
-      </a>
-      <a class="mx-2 my-1 xl:my-0" href="/kontakt/">
-				<span class="fas fa-address-card text-xl mr-1"></span>
-				Kontakt
-			</a>
-			<a class="mx-2 my-1 xl:my-0" href="/konkursy/">
-				<span class="fas fa-trophy text-xl mr-1"></span>
-				Konkursy
-			</a>
-			<a class="mx-2 my-1 xl:my-0" href="/sklep/">
-				<span class="fas fa-shopping-cart text-xl mr-1"></span>
-				Sklep
-			</a>
-		</div>
-	</div>
+    <div class="xl:fixed right-0 xl:top-0">
+      <div
+        id="nav-right"
+        class="nav-hidden sidebar truncate flex flex-col -mx-2 mt-2 xl:top-0"
+      >
+        <a class="mx-2 my-1" href="/aktualnosci/">
+          <span class="fas fa-newspaper text-xl mr-1"></span>
+          Aktualności
+        </a>
+        <a class="mx-2 my-1 flex items-center" href="/rangi/">
+          <img
+            src="/assets/img/ikony/rangi2.png"
+            style="width: 2rem; height: 1.5rem;"
+            class="pr-2"
+          />
+          Rangi
+        </a>
+        <button type="button" class="collapsible mx-2 my-1 flex items-center">
+          <img
+            src="/assets/img/ikony/cr2.png"
+            style="width: 2rem; height: 1.5rem;"
+            class="pr-2"
+          />
+          <div class="pr-11">Clash Royale</div>
+          <i class="fas fa-caret-down left"></i>
+        </button>
+        <div class="content truncate flex flex-col">
+          <a class="mx-2 my-1" href="/podsumowania/">
+            <span class="fas fa-book-open text-xl mr-1"></span>
+            Podsumowania
+          </a>
+          <a class="mx-2 my-1 flex items-content" href="/decki/">
+            <img
+              src="/assets/img/ikony/decki2.png"
+              style="width: 2rem; height: 1.5rem;"
+            />
+            Decki
+          </a>
+          <a class="mx-2 my-1" href="/zapisy/">
+            <span class="fas fa-file-signature text-xl mr-1"></span>
+            Zapisy
+          </a>
+          <a class="mx-2 my-1" href="/regulaminy/">
+            <span class="fas fa-scroll text-xl mr-1"></span>
+            Regulaminy
+          </a>
+        </div>
+        <a class="mx-2 my-1" href="/kontakt/">
+          <span class="fas fa-address-card text-xl mr-1"></span>
+          Kontakt
+        </a>
+        <a class="mx-2 my-1" href="/konkursy/">
+          <span class="fas fa-trophy text-xl mr-1"></span>
+          Konkursy
+        </a>
+        <a class="mx-2 my-1" href="/sklep/">
+          <span class="fas fa-shopping-cart text-xl mr-1"></span>
+          Sklep
+        </a>
+      </div>
+    </div>
+  </div>
 </nav>
 
+    </div>
+    <div class="xl:mr-64">
 		<div class="w-full max-w-6xl px-6 py-8 mx-auto mb-12">
 	<div class="flex flex-col justify-center items-center mt-16">
 	<div class="text-4xl text-center">
@@ -86,7 +122,10 @@
 
 </div>
 
+    </div>
+    </div>
 		<!-- Customerly Integration Code -->
+<div>
 <script>
     window.customerlySettings = {
         app_id: "102de45c"
@@ -99,6 +138,7 @@
     r.customerly_queue=[],n.c=function(e){r.customerly_queue.push(e)},
     r.customerly=n,r.attachEvent?r.attachEvent("onload",e):r.addEventListener("load",e,!1)}();
 </script>
+</div>
 
 <footer class="bg-gray-800 text-gray-300 mt-auto fixed w-full bottom-0">
 	<div class="max-w-6xl flex flex-col sm:flex-row justify-between items-center mx-auto px-5 py-4">
