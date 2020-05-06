@@ -14143,31 +14143,39 @@ progress,
 }
 
 .papier {
-  color: #CCCCCC;
+  color: #AAAAAA;
 }
 
 .drewno {
-  color: #945635;
+  color: #78402A;
 }
 
 .metal {
-  color: #f4f0ec;
+  color: #7E7B7B;
 }
 
 .srebro {
-  color: #f4f0ec;
+  background-image: linear-gradient(90deg, #2c3e50, #E7E7E7, #2c3e50);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .zloto {
-  color: #f4f0ec;
+  background-image: linear-gradient(125deg, #795123, #DABF5D, #795123);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .tytan {
-  color: #f4f0ec;
+  background-image: linear-gradient(125deg, #364959, #29A09D, #355C7D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .diament {
-  color: #f4f0ec;
+  background-image: linear-gradient(125deg, #29A1C7, #1CDEE4, #1C5F8F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .sidebar {
