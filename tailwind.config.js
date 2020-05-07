@@ -17,6 +17,7 @@ module.exports = {
       colors: {
         gray: {
           ...colors.gray,
+          '400': '#cccccc',
           '700': '#22262e',
           '800': '#1e2129',
           '900': '#181b21',
