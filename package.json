@@ -1,8 +1,8 @@
 {
   "name": "grandzonegaming",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "index.js",
-  "author": "Dawid Potocki <dpot@disroot.org>",
+  "author": "Adrian Marciniuk <marciniuk.adrian123@gmail.com>",
   "private": true,
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
