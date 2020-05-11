@@ -14130,7 +14130,7 @@ progress,
 
 .content {
   font-size: 1.1rem;
-  padding-left: 12px;
+  padding-left: 0.75rem;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.4s ease-out;
