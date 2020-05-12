@@ -126,12 +126,55 @@
 </div>
 
 <div class="w-full max-w-6xl px-6 py-8 mx-auto mb-12">
-	<div class="md:flex flex-col">
-  <div class="text-center text-2xl">
-    Ten dział będzie uzupełniony o materiały z naszej charytatywnej
-    działalności. Wpadaj tu by nie przegapić najnowszych informacji!
+	<div class="z-10 fixed w-full left-0 top-0">
+  <div class="loading-container w-full h-full bg-gray-800 flex justify-center items-center fixed pr-3">
+    <img class="loading h-64" src="/assets/img/loading/logo.svg" />
+  </div>
+  <div class="loaded hidden w-1/2 h-full bg-gray-800 flex justify-end items-center fixed pr-3 loading-after">
+    <img class="h-64" src="/assets/img/loading/left.svg" />
+  </div>
+  <div class="loaded hidden w-1/2 h-full bg-gray-800 flex right-0 items-center fixed pr-3 loading-after">
+    <img class="h-64" src="/assets/img/loading/right.svg" />
   </div>
 </div>
+
+<div class="flex lg:flex-row flex-col">
+  <div class="lg:w-1/2 lg:mr-2 mt-3">
+    <button
+      type="button"
+      class="collapsible mx-2 flex w-full flex-row lg:mt-1 items-center pt-3"
+    >
+      <div
+        class="bg-gray-800 w-full rounded-lg rounded-b-none p-2 flex flex-row -mx-2 justify-center"
+      >
+        Świąteczny Turniej Charytatywny, edycja 2019
+      </div>
+    </button>
+    <div
+      class="content flex flex-col bg-gray-800 rounded-lg rounded-t-none p-1 pr-3"
+    >
+      <div class="flex flex-col -mx-2 justify-center pt-4">
+        <a
+          href="/gzgtv/gzg-charytatywnie/powp/"
+          class="p-2 flex justify-center"
+        >
+          pOwP
+        </a>
+        <a href="/gzgtv/gzg-charytatywnie/blackluk/" class="p-2 flex justify-center">
+          BlackLuk
+        </a>
+        <a href="/gzgtv/gzg-charytatywnie/manoyek/" class="p-2 flex justify-center">
+          Manoyek
+        </a>
+        <a href="/gzgtv/gzg-charytatywnie/vcr/" class="p-2 flex justify-center">
+          VCR
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 </div>
 
