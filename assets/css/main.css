@@ -14137,23 +14137,23 @@ progress,
 }
 
 .lekki-niebieski {
-  color: #ACCDC6;
+  color: #accdc6;
 }
 
 .lekki-zolty {
-  color: #DDE89A;
+  color: #dde89a;
 }
 
 .lekki-zielony {
-  color: #83DD9D;
+  color: #83dd9d;
 }
 
 .lekki-fioletowy {
-  color: #D0AAFF;
+  color: #d0aaff;
 }
 
 .lekki-srebrny {
-  color: #C9D6FF;
+  color: #c9d6ff;
 }
 
 .linki {
@@ -14161,43 +14161,43 @@ progress,
 }
 
 .twitter {
-  background-image: linear-gradient(90deg, #1B3D75, #1CA0F1);
+  background-image: linear-gradient(90deg, #1b3d75, #1ca0f1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .papier {
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
 .drewno {
-  color: #78402A;
+  color: #78402a;
 }
 
 .metal {
-  color: #7E7B7B;
+  color: #7e7b7b;
 }
 
 .srebro {
-  background-image: linear-gradient(90deg, #2c3e50, #E7E7E7, #2c3e50);
+  background-image: linear-gradient(90deg, #2c3e50, #e7e7e7, #2c3e50);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .zloto {
-  background-image: linear-gradient(125deg, #795123, #DABF5D, #795123);
+  background-image: linear-gradient(125deg, #795123, #dabf5d, #795123);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .tytan {
-  background-image: linear-gradient(125deg, #364959, #29A09D, #355C7D);
+  background-image: linear-gradient(125deg, #364959, #29a09d, #355c7d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .diament {
-  background-image: linear-gradient(125deg, #29A1C7, #1CDEE4, #1C5F8F);
+  background-image: linear-gradient(125deg, #29a1c7, #1cdee4, #1c5f8f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
