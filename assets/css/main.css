@@ -14136,6 +14136,26 @@ progress,
   transition: max-height 0.4s ease-out;
 }
 
+.lekki-niebieski {
+  color: #ACCDC6;
+}
+
+.lekki-zolty {
+  color: #DDE89A;
+}
+
+.lekki-zielony {
+  color: #83DD9D;
+}
+
+.lekki-fioletowy {
+  color: #D0AAFF;
+}
+
+.lekki-srebrny {
+  color: #C9D6FF;
+}
+
 .linki {
   color: #c62d3f !important;
 }
