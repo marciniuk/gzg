@@ -13966,6 +13966,25 @@ video {
   transition-duration: 1000ms;
 }
 
+.wh-18 {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.active {
+  border-bottom-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+}
+
+.pl-0 {
+  padding-left: 0px !important;
+}
+
+.wh-13 {
+  width: 3.25rem;
+  height: 3.25rem;
+}
+
 @font-face {
   font-family: Over-There;
 
