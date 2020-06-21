@@ -13966,6 +13966,10 @@ video {
   transition-duration: 1000ms;
 }
 
+.pl-0-i {
+  padding-left: 0px !important;
+}
+
 .wh-18 {
   width: 4.5rem;
   height: 4.5rem;
