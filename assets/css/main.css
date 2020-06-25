@@ -13966,6 +13966,10 @@ video {
   transition-duration: 1000ms;
 }
 
+.min-h-70p {
+  min-height: 70%;
+}
+
 .pl-0-i {
   padding-left: 0px !important;
 }
@@ -14182,6 +14186,14 @@ progress,
 
 .lekki-srebrny {
   color: #c9d6ff;
+}
+
+.twitch {
+  color: #9147FF;
+}
+
+.youtube {
+  color: #FF0000;
 }
 
 .linki {
