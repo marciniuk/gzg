@@ -14195,7 +14195,7 @@ progress,
 }
 
 .youtube {
-  background-image: linear-gradient(170deg, #CE2C2B, #FF0000);
+  background-image: linear-gradient(170deg, #bd4140, #FF0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
