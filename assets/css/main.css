@@ -13966,6 +13966,10 @@ video {
   transition-duration: 1000ms;
 }
 
+.max-w-25p {
+  max-width: 25%;
+}
+
 .min-h-70p {
   min-height: 70%;
 }
