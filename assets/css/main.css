@@ -14234,10 +14234,18 @@ progress,
   color: #7e7b7b;
 }
 
+.text-srebro {
+  color: #8995a3;
+}
+
 .srebro {
   background-image: linear-gradient(90deg, #2c3e50, #e7e7e7, #2c3e50);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.text-zloto {
+  color: #AE8D43;
 }
 
 .zloto {
