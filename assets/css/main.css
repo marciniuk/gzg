@@ -13970,12 +13970,20 @@ video {
   max-width: 25%;
 }
 
+.min-h-40p {
+  min-height: 40%;
+}
+
 .min-h-50p {
   min-height: 50%;
 }
 
 .min-h-70p {
   min-height: 70%;
+}
+
+.min-h-80p {
+  min-height: 80%;
 }
 
 .pl-0-i {
