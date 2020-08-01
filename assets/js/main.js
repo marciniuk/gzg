@@ -41,6 +41,24 @@ document.querySelectorAll(".loading").forEach(async (element) => {
   });
 });
 
+if (window.location.pathname === "/happy-tags/") {
+  let deadline = new Date("Aug 2, 2020 19:15:00").getTime();
+  let x = setInterval(() => {
+    let now = new Date().getTime();
+    let t = deadline - now;
+    let days = Math.floor(t / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    document.querySelector("#timer2").innerHTML =
+      days + "d " + hours + "h " + minutes + "m";
+    if (t < 0) {
+      clearInterval(x);
+      document.querySelector("#timer2").innerHTML =
+        'The draw has started!';
+    }
+  }, 1000);
+}
+
 if (window.location.pathname === "/") {
   let deadline = new Date("Jan 20, 2020 00:00:00").getTime();
   let x = setInterval(() => {
@@ -49,11 +67,11 @@ if (window.location.pathname === "/") {
     let days = Math.floor(t / (1000 * 60 * 60 * 24));
     let hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
-    document.querySelector("#timer").innerHTML =
+    document.querySelector("#timer1").innerHTML =
       days + "d " + hours + "h " + minutes + "m";
     if (t < 0) {
       clearInterval(x);
-      document.querySelector("#timer").innerHTML =
+      document.querySelector("#timer1").innerHTML =
         '<a href="https://zrzutka.pl/gramy-pomagamy">ZAKOŃCZONA!</a>';
     }
   }, 1000);
