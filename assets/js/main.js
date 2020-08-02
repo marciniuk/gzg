@@ -42,6 +42,24 @@ document.querySelectorAll(".loading").forEach(async (element) => {
 });
 
 if (window.location.pathname === "/") {
+  let deadline = new Date("Aug 3, 2020 17:00:00").getTime();
+  let x = setInterval(() => {
+    let now = new Date().getTime();
+    let t = deadline - now;
+    let days = Math.floor(t / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((t % (1000 * 60)) / (1000));
+    document.querySelector("#FinalIC").innerHTML =
+      days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+    if (t < 0) {
+      clearInterval(x);
+      document.querySelector("#FinalIC").innerHTML =
+        '0d 0h 0m 0d';
+    }
+  }, 1000);
+}
+if (window.location.pathname === "/") {
   let deadline = new Date("Aug 2, 2020 19:15:00").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
@@ -59,6 +77,7 @@ if (window.location.pathname === "/") {
     }
   }, 1000);
 }
+
 if (window.location.pathname === "/happy-tags/") {
   let deadline = new Date("Aug 2, 2020 19:15:00").getTime();
   let x = setInterval(() => {

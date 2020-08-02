@@ -2,6 +2,10 @@
 const { colors } = require("tailwindcss/defaultTheme");
 
 module.exports = {
+  purge: [
+    "./_site/**/*.html",
+    "./assets/js/main.js",
+  ],
   theme: {
     listStyleType: {
       none: "none",
