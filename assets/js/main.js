@@ -55,7 +55,7 @@ if (window.location.pathname === "/") {
     if (t < 0) {
       clearInterval(x);
       document.querySelector("#tHL").innerHTML =
-        'The draw has started!';
+        '0d 0h 0m 0d';
     }
   }, 1000);
 }
@@ -73,7 +73,7 @@ if (window.location.pathname === "/happy-tags/") {
     if (t < 0) {
       clearInterval(x);
       document.querySelector("#timer2").innerHTML =
-        'The draw has started!';
+        '0d 0h 0m 0s';
     }
   }, 1000);
 }
