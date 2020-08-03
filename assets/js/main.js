@@ -42,7 +42,7 @@ document.querySelectorAll(".loading").forEach(async (element) => {
 });
 
 if (window.location.pathname === "/") {
-  let deadline = new Date("Aug 3, 2020 17:00:00").getTime();
+  let deadline = new Date("Aug 5, 2020 19:00:00").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
     let t = deadline - now;
