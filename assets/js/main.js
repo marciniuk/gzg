@@ -42,7 +42,26 @@ document.querySelectorAll(".loading").forEach(async (element) => {
 });
 
 if (window.location.pathname === "/") {
-  let deadline = new Date("Aug 5, 2020 19:00:00").getTime();
+  let deadline = new Date("Aug 9, 2020 21:00:00 GMT+0200").getTime();
+  let x = setInterval(() => {
+    let now = new Date().getTime();
+    let t = deadline - now;
+    let days = Math.floor(t / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((t % (1000 * 60)) / (1000));
+    document.querySelector("#GZGPL").innerHTML =
+      days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+    if (t < 0) {
+      clearInterval(x);
+      document.querySelector("#GZGPL").innerHTML =
+        '0d 0h 0m 0d';
+    }
+  }, 1000);
+}
+
+if (window.location.pathname === "/") {
+  let deadline = new Date("Aug 5, 2020 19:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
     let t = deadline - now;
@@ -59,8 +78,9 @@ if (window.location.pathname === "/") {
     }
   }, 1000);
 }
+
 if (window.location.pathname === "/") {
-  let deadline = new Date("Aug 2, 2020 19:15:00").getTime();
+  let deadline = new Date("Aug 2, 2020 19:15:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
     let t = deadline - now;
@@ -79,7 +99,7 @@ if (window.location.pathname === "/") {
 }
 
 if (window.location.pathname === "/happy-tags/") {
-  let deadline = new Date("Aug 2, 2020 19:15:00").getTime();
+  let deadline = new Date("Aug 2, 2020 19:15:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
     let t = deadline - now;
@@ -98,7 +118,7 @@ if (window.location.pathname === "/happy-tags/") {
 }
 
 if (window.location.pathname === "/") {
-  let deadline = new Date("Jan 20, 2020 00:00:00").getTime();
+  let deadline = new Date("Jan 20, 2020 00:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
     let t = deadline - now;
