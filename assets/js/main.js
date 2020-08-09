@@ -99,7 +99,7 @@ if (window.location.pathname === "/") {
 }
 
 if (window.location.pathname === "/happy-tags/") {
-  let deadline = new Date("Aug 2, 2020 19:15:00 GMT+0200").getTime();
+  let deadline = new Date("Aug 9, 2020 22:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
     let t = deadline - now;
