@@ -210,6 +210,28 @@
   </div>
 </div>
 
+<!--
+<div class="m-2">
+  <div class="slideshow-container1 mt-4">
+    <div class="mySlides1 fade1">
+      <a
+        href="https://twitter.com/GrandZoneGaming/status/1295340222872526848?s=19"
+      >
+        <img src="/assets/img/twitter/1.jpg" style="width: 100%;" />
+      </a>
+    </div>
+
+    <a class="prev1" onclick="plusSlides1(-1)">&#10094;</a>
+    <a class="next1" onclick="plusSlides1(1)">&#10095;</a>
+  </div>
+
+  <div class="text-center mt-2">
+    <span class="dot1" onclick="currentSlide1(1)"></span>
+  </div>
+</div>
+-->
+
+
 <div class="items-center flex flex-col">
   <div
     id="timer2"
@@ -279,10 +301,12 @@
   <div class="md:w-1/3 p-2">
     <img class="rounded shadow" src="/assets/img/happytag14.png" />
   </div>
+   -->
   <div class="md:w-1/3 p-2">
-    <img class="rounded shadow" src="/assets/img/happytag13.png" />
+    <a href="https://royaleapi.com/player/8LL8YVG8C">
+      <img class="rounded shadow" src="/assets/img/happytag13.png" />
+    </a>
   </div>
-  -->
   <div class="md:w-1/3 p-2">
     <a href="https://royaleapi.com/player/LVCGCY00">
       <img class="rounded shadow" src="/assets/img/happytag12.png" />
@@ -344,6 +368,159 @@
     </a>
   </div>
 </div>
+
+<!--
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+  }
+
+  .mySlides1 {
+    display: none;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  /* Slideshow container */
+
+  .slideshow-container1 {
+    max-width: 600px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Next & previous buttons */
+  .prev1,
+  .next1 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next1 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev1:hover,
+  .next1:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext1 {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    text: bold;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot1 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #717171;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active,
+  .dot1:hover {
+    background-color: #2aa356;
+  }
+
+  /* Fading animation */
+  .fade1 {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade1 {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade1 {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev1,
+    .next1 {
+      font-size: 11px;
+    }
+  }
+</style>
+
+<script>
+  /* 1 */
+  var slideIndex1 = 1;
+  showSlides1(slideIndex1);
+
+  function plusSlides1(n1) {
+    showSlides1((slideIndex1 += n1));
+  }
+
+  function currentSlide1(n1) {
+    showSlides1((slideIndex1 = n1));
+  }
+
+  function showSlides1(n1) {
+    var i1;
+    var slides1 = document.getElementsByClassName("mySlides1");
+    var dots1 = document.getElementsByClassName("dot1");
+    if (n1 > slides1.length) {
+      slideIndex1 = 1;
+    }
+    if (n1 < 1) {
+      slideIndex1 = slides1.length;
+    }
+    for (i1 = 0; i1 < slides1.length; i1++) {
+      slides1[i1].style.display = "none";
+    }
+    for (i1 = 0; i1 < dots1.length; i1++) {
+      dots1[i1].className = dots1[i1].className.replace(" active", "");
+    }
+    slides1[slideIndex1 - 1].style.display = "block";
+    dots1[slideIndex1 - 1].className += " active";
+  }
+</script>
+-->
 
 
 </div>
