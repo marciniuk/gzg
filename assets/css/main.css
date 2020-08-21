@@ -1582,6 +1582,10 @@ ol {
   list-style-type: decimal;
 }
 
+.uwaga {
+  background-image: linear-gradient(#093DA5, #31176D);
+}
+
 progress,
 ::-webkit-progress-bar {
   background-image: linear-gradient(90deg, #e83e3e, #e83e62);
