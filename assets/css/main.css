@@ -924,6 +924,10 @@ video {
   margin-top: 1rem;
 }
 
+.mr-4 {
+  margin-right: 1rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -1620,6 +1624,18 @@ progress,
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.4s ease-out;
+}
+
+.zolty {
+  color: #FFFD76;
+}
+
+.zielony {
+  color: #3DB259;
+}
+
+.pomaranczowy {
+  color: #FD821A;
 }
 
 .lekki-niebieski {
