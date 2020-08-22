@@ -3,6 +3,9 @@ const { colors } = require("tailwindcss/defaultTheme");
 
 module.exports = {
   purge: ["./_site/**/*.html", "./_site/**/*.js"],
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
   theme: {
     listStyleType: {
       none: "none",
