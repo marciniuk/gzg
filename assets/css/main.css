@@ -2011,8 +2011,6 @@ progress,
           animation-duration: 2s;
   -webkit-animation-name: slide;
           animation-name: slide;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes slide {
