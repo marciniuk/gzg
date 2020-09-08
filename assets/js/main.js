@@ -41,7 +41,7 @@ document.querySelectorAll(".loading").forEach(async (element) => {
   });
 });
 
-if (window.location.pathname === "/") {
+if (window.location.pathname === "/pl/") {
   let deadline = new Date("Aug 31, 2020 18:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
@@ -60,7 +60,7 @@ if (window.location.pathname === "/") {
   }, 1000);
 }
 
-if (window.location.pathname === "/") {
+if (window.location.pathname === "/pl/") {
   let deadline = new Date("Aug 5, 2020 19:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
@@ -79,7 +79,7 @@ if (window.location.pathname === "/") {
   }, 1000);
 }
 
-if (window.location.pathname === "/") {
+if (window.location.pathname === "/pl/") {
   let deadline = new Date("Aug 15, 2020 20:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
@@ -98,7 +98,7 @@ if (window.location.pathname === "/") {
   }, 1000);
 }
 
-if (window.location.pathname === "/happy-tags/") {
+if (window.location.pathname === "/pl/happy-tags/") {
   let deadline = new Date("Aug 15, 2020 20:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
@@ -117,7 +117,7 @@ if (window.location.pathname === "/happy-tags/") {
   }, 1000);
 }
 
-if (window.location.pathname === "/") {
+if (window.location.pathname === "/pl/") {
   let deadline = new Date("Jan 20, 2020 00:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
@@ -169,7 +169,7 @@ function submitForm() {
     window.localStorage.setItem(tournament, "p");
     return true;
   } else if (window.localStorage.getItem(tournament) === "p") {
-    window.location = "/wyslane/";
+    window.location = "/pl/wyslane/";
     return false;
   }
 }
@@ -186,7 +186,7 @@ async function slideshow(imageSrc, element) {
   }
 }
 
-if (window.location.pathname === "/sklep/koszulka-gzg") {
+if (window.location.pathname === "/pl/sklep/koszulka-gzg") {
   slideshow(
     [
       "/assets/img/layout/IMG_4447-Edit.jpg",
