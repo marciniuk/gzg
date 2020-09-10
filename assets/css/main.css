@@ -2261,6 +2261,10 @@ progress,
     font-size: 1.25rem;
   }
 
+  .lg\:m-1 {
+    margin: 0.25rem;
+  }
+
   .lg\:m-3 {
     margin: 0.75rem;
   }

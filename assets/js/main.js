@@ -41,7 +41,7 @@ document.querySelectorAll(".loading").forEach(async (element) => {
   });
 });
 
-if (window.location.pathname === "/pl/") {
+if (window.location.pathname === "/pl") {
   let deadline = new Date("Sep 10, 2020 22:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
@@ -60,7 +60,7 @@ if (window.location.pathname === "/pl/") {
   }, 1000);
 }
 
-if (window.location.pathname === "/pl/") {
+if (window.location.pathname === "/pl") {
   let deadline = new Date("Aug 5, 2020 19:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
@@ -79,7 +79,7 @@ if (window.location.pathname === "/pl/") {
   }, 1000);
 }
 
-if (window.location.pathname === "/pl/") {
+if (window.location.pathname === "/pl") {
   let deadline = new Date("Aug 15, 2020 20:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
@@ -117,7 +117,7 @@ if (window.location.pathname === "/pl/happy-tags/") {
   }, 1000);
 }
 
-if (window.location.pathname === "/pl/") {
+if (window.location.pathname === "/pl") {
   let deadline = new Date("Jan 20, 2020 00:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
