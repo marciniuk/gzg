@@ -42,7 +42,7 @@ document.querySelectorAll(".loading").forEach(async (element) => {
 });
 
 if (window.location.pathname === "/pl/") {
-  let deadline = new Date("Aug 31, 2020 18:00:00 GMT+0200").getTime();
+  let deadline = new Date("Sep 10, 2020 22:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
     let t = deadline - now;
@@ -51,11 +51,11 @@ if (window.location.pathname === "/pl/") {
     let minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
     let seconds = Math.floor((t % (1000 * 60)) / (1000));
     document.querySelector("#GZGPL").innerHTML =
-      days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+      "in " + days + "d " + hours + "h " + minutes + "m " + seconds + "s";
     if (t < 0) {
       clearInterval(x);
       document.querySelector("#GZGPL").innerHTML =
-        '?d ?h ?m ?d';
+        'NOW!';
     }
   }, 1000);
 }
