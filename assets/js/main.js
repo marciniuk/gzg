@@ -60,6 +60,25 @@ if (window.location.pathname === "/pl") {
   }, 1000);
 }
 
+if (window.location.pathname === "/en") {
+  let deadline = new Date("Sep 10, 2020 22:00:00 GMT+0200").getTime();
+  let x = setInterval(() => {
+    let now = new Date().getTime();
+    let t = deadline - now;
+    let days = Math.floor(t / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((t % (1000 * 60)) / (1000));
+    document.querySelector("#GZGPL").innerHTML =
+      "in " + days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+    if (t < 0) {
+      clearInterval(x);
+      document.querySelector("#GZGPL").innerHTML =
+        'NOW!';
+    }
+  }, 1000);
+}
+
 if (window.location.pathname === "/pl") {
   let deadline = new Date("Aug 5, 2020 19:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
@@ -98,7 +117,45 @@ if (window.location.pathname === "/pl") {
   }, 1000);
 }
 
+if (window.location.pathname === "/en") {
+  let deadline = new Date("Aug 15, 2020 20:00:00 GMT+0200").getTime();
+  let x = setInterval(() => {
+    let now = new Date().getTime();
+    let t = deadline - now;
+    let days = Math.floor(t / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((t % (1000 * 60)) / (1000));
+    document.querySelector("#tHL").innerHTML =
+      days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+    if (t < 0) {
+      clearInterval(x);
+      document.querySelector("#tHL").innerHTML =
+        '?d ?h ?m ?d';
+    }
+  }, 1000);
+}
+
 if (window.location.pathname === "/pl/happy-tags/") {
+  let deadline = new Date("Aug 15, 2020 20:00:00 GMT+0200").getTime();
+  let x = setInterval(() => {
+    let now = new Date().getTime();
+    let t = deadline - now;
+    let days = Math.floor(t / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((t % (1000 * 60)) / (1000));
+    document.querySelector("#timer2").innerHTML =
+      days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+    if (t < 0) {
+      clearInterval(x);
+      document.querySelector("#timer2").innerHTML =
+        '0d 0h 0m 0s';
+    }
+  }, 1000);
+}
+
+if (window.location.pathname === "/en/happy-tags/") {
   let deadline = new Date("Aug 15, 2020 20:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
@@ -131,6 +188,24 @@ if (window.location.pathname === "/pl") {
       clearInterval(x);
       document.querySelector("#timer1").innerHTML =
         '<a href="https://zrzutka.pl/gramy-pomagamy">ZAKOŃCZONA!</a>';
+    }
+  }, 1000);
+}
+
+if (window.location.pathname === "/en") {
+  let deadline = new Date("Jan 20, 2020 00:00:00 GMT+0200").getTime();
+  let x = setInterval(() => {
+    let now = new Date().getTime();
+    let t = deadline - now;
+    let days = Math.floor(t / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    document.querySelector("#timer1").innerHTML =
+      days + "d " + hours + "h " + minutes + "m";
+    if (t < 0) {
+      clearInterval(x);
+      document.querySelector("#timer1").innerHTML =
+        '<a href="https://zrzutka.pl/gramy-pomagamy">FINISHED!</a>';
     }
   }, 1000);
 }
@@ -184,6 +259,20 @@ async function slideshow(imageSrc, element) {
     await sleep(2000);
     if (i === imageSrc.length - 1) i = -1;
   }
+}
+
+if (window.location.pathname === "/en/store/t-shirt-gzg") {
+  slideshow(
+    [
+      "/assets/img/layout/IMG_4447-Edit.jpg",
+      "/assets/img/layout/IMG_4448.jpg",
+      "/assets/img/layout/IMG_4451-Edit.jpg",
+      "/assets/img/layout/IMG_4454.jpg",
+      "/assets/img/layout/IMG_4456-Edit.jpg",
+      "/assets/img/layout/IMG_4460.jpg",
+    ],
+    "#shop-slideshow"
+  );
 }
 
 if (window.location.pathname === "/pl/sklep/koszulka-gzg") {
