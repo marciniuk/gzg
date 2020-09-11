@@ -42,7 +42,7 @@ document.querySelectorAll(".loading").forEach(async (element) => {
 });
 
 if (window.location.pathname === "/pl/") {
-  let deadline = new Date("Sep 10, 2020 22:00:00 GMT+0200").getTime();
+  let deadline = new Date("Sep 13, 2020 22:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
     let t = deadline - now;
@@ -61,7 +61,7 @@ if (window.location.pathname === "/pl/") {
 }
 
 if (window.location.pathname === "/en/") {
-  let deadline = new Date("Sep 10, 2020 22:00:00 GMT+0200").getTime();
+  let deadline = new Date("Sep 13, 2020 22:00:00 GMT+0200").getTime();
   let x = setInterval(() => {
     let now = new Date().getTime();
     let t = deadline - now;
