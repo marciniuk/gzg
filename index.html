@@ -217,10 +217,12 @@
 <script>
   window.onload = function () {
     var ln = window.navigator.language || navigator.browserLanguage;
-    if (ln == "pl") {
+    if (ln == "pl-PL") {
+      window.location.href = "/pl";
+    } else if (ln == "pl") {
       window.location.href = "/pl";
     } else {
-      window.location.href = "/pl";
+      window.location.href = "/en";
     }
   };
 </script>
